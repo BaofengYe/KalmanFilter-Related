@@ -1,6 +1,7 @@
 # Alternative Models for Kalman Filter under Non-Normality \& Orthogonality Violation
 
 > The standard Kalman Filter (KF) requires two critical assumptions: (1) Gaussian noise and (2) orthogonality (uncorrelated process \& measurement noise, and estimation error orthogonal to observations). When \*\*both\*\* are violated, this repo catalogs \*\*20+ alternative models\*\* across \*\*14 categories\*\* with formulas, pros/cons, financial industry pitfalls, and academic/industry status.
+> This file provides a full quick overview of all potential alternatives for linear KF.
 
 \---
 
