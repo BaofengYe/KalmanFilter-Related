@@ -1,10 +1,5 @@
 # Alternative Models for Kalman Filter under Non-Normality \& Orthogonality Violation
 
-\[!\[Topics](https://img.shields.io/badge/Topics-State%20Estimation%20%7C%20Non--Gaussian%20%7C%20Filtering-blue)]()
-\[!\[Field](https://img.shields.io/badge/Field-Financial%20Engineering%20%7C%20Signal%20Processing%20%7C%20Control%20Systems-green)]()
-\[!\[Type](https://img.shields.io/badge/Type-Comprehensive%20Survey-orange)]()
-\[!\[Last Updated](https://img.shields.io/badge/Updated-2026--05-informational)]()
-
 > The standard Kalman Filter (KF) requires two critical assumptions: (1) Gaussian noise and (2) orthogonality (uncorrelated process \& measurement noise, and estimation error orthogonal to observations). When \*\*both\*\* are violated, this repo catalogs \*\*20+ alternative models\*\* across \*\*14 categories\*\* with formulas, pros/cons, financial industry pitfalls, and academic/industry status.
 
 \---
@@ -308,7 +303,7 @@ $$K\_t^{MCC} = P\_{t|t-1} H\_t^T \\left( H\_t P\_{t|t-1} H\_t^T + R\_t \\oslash 
 
 **Core Idea (Prabhat \& Bhattacharya, 2024):** Formulate state estimation as optimal transport — minimize Wasserstein distance from posterior error to Dirac delta (perfect knowledge). **Distribution-agnostic.**
 
-$$\\hat{T}^\* = \\arg\\min\_{T} W\_p\\left(T\_# \\gamma(x\_0, z), \\delta\_0\\right)$$
+$$\hat{T}^* = \arg\min_{T} W_p\left(T_{\sharp} \gamma(x_0, z), \delta_0\right)$$
 
 |Symbol|Meaning|Role|How Determined|
 |-|-|-|-|
